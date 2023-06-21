@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 1140px;
+  padding: 0px 20px;
+  margin: 0px auto;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+  z-index: 99;
+}
+.p1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.logo {
+  display: grid;
+  grid-template-columns: 27px 50px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+ul li a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b8e99;
+}
+nav ul {
+  display: grid;
+  grid-template-columns: 48px 57px 110px 57px 49px;
+  column-gap: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0px;
+  transition: 1s;
+}
+.navbar-shrink {
+  padding: 22px 0;
+}
+.nav-icons {
+  display: flex;
+  column-gap: 15px;
+}
+.menu {
+  display: none;
+}
+#image2 {
+  position: relative;
+}
+.d3 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: #3858d6;
+  top: -13%;
+  right: -13%;
+}
+.p2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+.home {
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+  background: linear-gradient(155.28deg, #383638 2.06%, #0b0b0b 33.08%);
+}
+.p3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 125.5%;
+  color: #ffffff;
+  padding-bottom: 30px;
+  max-width: 390px;
+}
+.p4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: #8b8e99;
+  padding-bottom: 47px;
+  max-width: 360px;
+}
+.input1 {
+  background-image: url(../assets/image5.svg);
+  width: 21px;
+  height: 21px;
+  background-position: 19px 19px;
+  background-repeat: no-repeat;
+  width: 443px;
+  height: 60px;
+  padding-left: 56px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: rgba(139, 142, 153, 0.7);
+  outline: none;
+  border-radius: 15px;
+  border: none;
+}
+.search-btn {
+  background: #3858d6;
+  border-radius: 9px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125.5%;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding: 12px 32px 12px 32px;
+  position: absolute;
+  right: 2%;
+  top: 10%;
+}
+.field {
+  position: relative;
+}
+.hero-content {
+  padding-top: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 140px;
+}
+.p5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #1e1d1d;
+}
+.p6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8b8e99;
+  max-width: 148px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 85px 173px;
+  column-gap: 67px;
+  align-items: center;
+  background: #f6f6f6;
+  border-radius: 22px;
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+.d6 {
+  row-gap: 9px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+}
+.image7 {
+  padding-left: 41px;
+}
+.brands-content {
+  padding-top: 73px;
+  padding-bottom: 150px;
+}
+.p7 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3858d6;
+}
+.p8 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #1e1d1d;
+  padding-bottom: 65px;
+}
+.d7 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+  padding-bottom: 70px;
+}
+.image10 {
+  background: #f6f6f6;
+  display: grid;
+}
+.products-cards {
+  padding-bottom: 70px;
+}
+.photo1 {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  display: grid;
+  place-self: center;
+}
+#image10 {
+  position: relative;
+}
+.d9 {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+}
+.image12 {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #3858d6;
+  text-align: center;
+  padding-top: 9px;
+}
+.image13 {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #ff6b6b;
+  text-align: center;
+  padding-top: 9px;
+}
+.p9 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #1e1d1d;
+}
+.p10 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120.5%;
+  color: #8b8e99;
+  mix-blend-mode: normal;
+  text-decoration: line-through;
+}
+.p11 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120.5%;
+  color: #000000;
+}
+.d10 {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  justify-content: center;
+}
+.d11 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 11px;
+}
+.products-btn a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+}
+.products-btn {
+  background: #3858d6;
+  border-radius: 15px;
+  width: 196px;
+  height: 46px;
+  border: none;
+}
+.db1 {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+.products-content {
+  padding-bottom: 135px;
+}
+.about-content {
+  padding-bottom: 135px;
+}
+.item {
+  display: flex;
+  background: #f6f6f6;
+  border-radius: 22px;
+  column-gap: 29px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  margin-bottom: 42px;
+}
+.po1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #1e1d1d;
+  padding-bottom: 10px;
+}
+.po2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8b8e99;
+  max-width: 220px;
+  padding-bottom: 13px;
+}
+.do1 {
+  padding-left: 35px;
+}
+.photo2 {
+  width: 140.71px;
+  height: 28px;
+}
+.contact-content {
+  background: #f6f6f6;
+  border-radius: 22px;
+}
+.p12 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #1e1d1d;
+  padding-bottom: 12px;
+}
+.p13 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #8b8e99;
+  padding-bottom: 12px;
+}
+.input2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: rgba(139, 142, 153, 0.7);
+  background: #ffffff;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  width: 400px;
+  outline: none;
+  border: none;
+}
+.contact-content {
+  padding-top: 33px;
+  padding-bottom: 43px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-content: center;
+  column-gap: 130px;
+}
+.d12 {
+  align-self: center;
+}
+.subscribe-btn a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125.5%;
+  text-align: center;
+  color: #ffffff;
+}
+.subscribe-btn {
+  background: #3858d6;
+  border-radius: 9px;
+  border: none;
+  padding: 12px 28px;
+  position: absolute;
+  top: 10%;
+  right: 2%;
+}
+.field2 {
+  position: relative;
+}
+footer {
+  margin-top: 91px;
+  background: #0b0b0b;
+}
+.p14 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125.5%;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.pa1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #3858d6;
+}
+.pa2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #1e1d1d;
+  padding-bottom: 55px;
+}
+.svg1 {
+  background-color: #000000;
+  border: #000000;
+  color: #000000;
+  border: none;
+}
+.dark {
+  background-color: black;
+}
+
+.dark .products-content p,
+.dark .pa1,
+.dark .pa2 {
+  color: white !important;
+}
+.d50 {
+  display: flex;
+  width: 750px;
+  justify-content: space-between;
+}
+
+/* ///////responsive//////// */
+
+@media (max-width: 1040px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+  }
+}
+@media (max-width: 950px) {
+  .d7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero-content {
+    flex-direction: column;
+    row-gap: 80px;
+  }
+}
+@media (max-width: 850px) {
+  .contact-content {
+    grid-template-columns: auto;
+    row-gap: 80px;
+  }
+  .photo5 {
+    width: 94%;
+  }
+}
+@media (max-width: 801px) {
+}
+@media (max-width: 670px) {
+  .d50 {
+    flex-direction: column;
+  }
+  .menu {
+    display: block;
+  }
+  nav ul {
+    display: none;
+  }
+  .showmenu {
+    display: block;
+  }
+  nav ul li {
+    padding: 7px 0px;
+    padding-left: 10px;
+  }
+  .d3 {
+    display: none;
+  }
+}
+@media (max-width: 580px) {
+  .d7 {
+    display: grid;
+    grid-template-columns: 0.8fr;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+  .input1 {
+    width: 313px;
+  }
+  .search-btn {
+    position: absolute;
+    right: 21%;
+    padding: 12px 25px;
+  }
+  .photo4 {
+    width: 90%;
+  }
+}
+@media (max-width: 440px) {
+  .p12 {
+    max-width: 430px;
+  }
+  .input2 {
+    width: 313px;
+  }
+  .subscribe-btn {
+    padding: 12px 20px;
+    right: 18%;
+  }
+  .image12 {
+    display: none;
+  }
+  .image13 {
+    display: none;
+  }
+}
+@media (max-width: 390px) {
+}
+@media (max-width: 414px) {
+  .input1 {
+    width: 313px;
+  }
+  .search-btn {
+    position: absolute;
+    right: 17%;
+    padding: 12px 25px;
+  }
+  .field2 {
+    position: relative;
+    width: 313px;
+  }
+  .subscribe-btn {
+    padding: 12px 20px;
+    right: 3%;
+  }
+}
+@media (max-width: 397px) {
+  .field {
+    position: relative;
+    width: 313px;
+  }
+  .search-btn {
+    position: absolute;
+    padding: 12px 25px;
+    right: 3%;
+  }
+}
